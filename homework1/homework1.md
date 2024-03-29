@@ -35,4 +35,5 @@ def return_nothing(x):
 >>> x = 5
 >>> y = return_nothing(x)
 >>> y + 1
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
 ```
