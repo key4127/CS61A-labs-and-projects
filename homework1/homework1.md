@@ -89,12 +89,12 @@ while i < 3:
 |:-:|:-:|:-:|:-:|
 |python|and|or|not|
 
-**To evaluate the expression <left> and <right>:**  
+To evaluate the expression related to **and**:  
 - Evaluate the subexpression <left>.
 - If the result is a false value v, then the expression evaluates to v.
 - Otherwise, the expression evaluates to the value of the subexpression <right>.
 
-To evaluate the expression **"<"left> or <right>"**:  
+To evaluate the expression related to **or**:  
 -  Evaluate the subexpression <left>.
 -  If the result is a true value v, then the expression evaluates to v.
 -  Otherwise, the expression evaluates to the value of the subexpression <right>.
