@@ -39,4 +39,11 @@ TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
 ```
 As the name y has been bound to the value **None**, it produces an error.  
 
-###
+### pure funcions and non-pure functions
+Pure functions only return values. To be excatly, pure functions always give the same output for the same input, and do not have any side effect. They do not modify the state of the external environment.  
+```python
+def pow(x, y)
+    return x ** y
+# this is a pure function
+```
+
