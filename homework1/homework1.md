@@ -22,7 +22,7 @@ So far, the current environment is either:
 - The global frame alone.  
 - A local frame, followed by the global frame.
 
-**An environment is a sequence of frames.
+**An environment is a sequence of frames.  
 A name evaluates to the value bound to that name in the earliest frame of the current environment in which that name is found.**
 
 ###
