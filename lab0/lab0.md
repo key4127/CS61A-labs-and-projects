@@ -9,3 +9,7 @@
 '''python
 def function_name():
     return result
+'''python
+
+### comment
+'''python
