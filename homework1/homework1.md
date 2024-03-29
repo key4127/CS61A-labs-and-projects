@@ -37,3 +37,6 @@ def return_nothing(x):
 >>> y + 1
 TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
 ```
+As the name y has been bound to the value **None**, it produces an error.  
+
+###
