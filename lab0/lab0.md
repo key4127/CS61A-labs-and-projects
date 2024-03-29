@@ -6,7 +6,7 @@
 |operater|+|-|*|/|//|%|**|
 
 ### function definition
-'''python
+```python
 def function_name():
     return result
 '''
