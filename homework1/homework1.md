@@ -60,3 +60,16 @@ def increment()
 # the function changes the global variable count. this is also a non_pure function.
 ```
 
+### conditional statements
+```python
+def absolute_value(x):
+    if x < 0:
+        return -x
+    elif x == 0:
+        return 0
+    else:
+        return x
+```
+Unlike C++, the scope of a variable is not limited to the block of code where it's defined. If a variable was defined inside a loop or a conditional statement, the variable will still exist even after the completion of the loop or the conditional statement.  
+
+###
