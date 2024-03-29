@@ -72,4 +72,12 @@ def absolute_value(x):
 ```
 Unlike C++, the scope of a variable is not limited to the block of code where it's defined. If a variable was defined inside a loop or a conditional statement, the variable will still exist even after the completion of the loop or the conditional statement.  
 
+### while statements
+```python
+i, total = 0, 0
+while i < 3:
+    i = i + 1
+    total = total + i
+```
+
 ###
