@@ -99,12 +99,13 @@ To evaluate the expression related to **or**:
 -  If the result is a true value v, then the expression evaluates to v.
 -  Otherwise, the expression evaluates to the value of the subexpression <right>.
 
-### contional expressions
+### conditional expressions
 ```python
 consequent if predicate else alternative
 ```
-Similar to the ternary operator in C++. The difference is that it is the second statement that is evaluated, not the first.  
+Similar to the ternary operator in C++. The difference is that it is the second statement that is the conditional statement, not the first.  
 
+The evaluation rule is:  
 - Evaluate the <predicate> expression.  
 - If it's a true value, the value of the whole expression is the value of the <consequent>.
 - Otherwise, the value of the whole expression is the value of the <alternative>.  
