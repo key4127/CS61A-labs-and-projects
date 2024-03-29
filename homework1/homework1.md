@@ -26,7 +26,7 @@ So far, the current environment is either:
 A name evaluates to the value bound to that name in the earliest frame of the current environment in which that name is found.**
 
 ### none
-The special value **None** represents nothing in Python, a function that does not explicitly return a value will return **None**  
+The special value **None** represents nothing in Python. a function that does not explicitly return a value will return **None**.    
 ```python
 def return_nothing(x):
     x += 1
@@ -45,5 +45,18 @@ Pure functions only return values. To be excatly, pure functions always give the
 def pow(x, y)
     return x ** y
 # this is a pure function
+```
+Non-pure functions may change the state of the program or have other side effects. For example, the function may alter **global variables**, modify **input parameters**, perform **I/O operations**, etc.  
+```python
+def print_hello():
+    print("hello")
+# python will display the output "hello". this is a non-pure function.
+```
+```python
+count = 0
+def increment()
+    global count  # global is used to reference variables defined in the global frame.
+    count += 1
+# the function changes the global variable count. this is also a non_pure function.
 ```
 
