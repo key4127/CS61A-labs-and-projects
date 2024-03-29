@@ -5,5 +5,6 @@
 2.  Bind all names to the left of = to those resulting values in the current frame.
 
 ### defining functions
-Assignment is a simple means of abstraction: binds names to values 
-Function definition is a more powerful means of abstraction: binds names to expressions
+Assignment is a simple means of abstraction: binds names to values.  
+Function definition is a more powerful means of abstraction: binds names to expressions.  
+
