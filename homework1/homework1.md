@@ -15,3 +15,9 @@ new_function = origin_function
 new_function()
 # the new function can be used in the same way as the origin function
 ```
+
+### environments
+Every expression is evaluated in the context of an environment.  
+So far, the current environment is either:  
+-The global frame alone, or
+-A local frame, followed by the global frame.
