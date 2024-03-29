@@ -85,6 +85,7 @@ while i < 3:
 - Implement a process just once, but execute it many times.
 
 ### logical operators
-|operators|and|or|not|
+|C++|&&|\|\||!|
 |:-:|:-:|:-:|:-:|
-#### false
+|python|and|or|not|
+
