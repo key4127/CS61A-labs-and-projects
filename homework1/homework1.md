@@ -19,5 +19,5 @@ new_function()
 ### environments
 Every expression is evaluated in the context of an environment.  
 So far, the current environment is either:  
--The global frame alone, or
--A local frame, followed by the global frame.
+- The global frame alone, or  
+- A local frame, followed by the global frame.  
