@@ -84,4 +84,7 @@ while i < 3:
 - Give each function exactly one job, but make it apply to many related situations.
 - Implement a process just once, but execute it many times.
 
-###
+### logical operators
+|operators|and|or|not|
+|:-:|:-:|:-:|:-:|
+#### false
