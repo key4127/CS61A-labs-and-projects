@@ -80,4 +80,8 @@ while i < 3:
     total = total + i
 ```
 
+### designing functions
+- Give each function exactly one job, but make it apply to many related situations.
+- Implement a process just once, but execute it many times.
+
 ###
