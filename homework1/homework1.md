@@ -25,4 +25,14 @@ So far, the current environment is either:
 **An environment is a sequence of frames.  
 A name evaluates to the value bound to that name in the earliest frame of the current environment in which that name is found.**
 
-###
+### none
+The special value **None** represents nothing in Python, a function that does not explicitly return a value will return **None**  
+```python
+def return_nothing(x):
+    x += 1
+```
+```python
+>>> x = 5
+>>> y = return_nothing(x)
+>>> y + 1
+```
