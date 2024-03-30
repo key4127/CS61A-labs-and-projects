@@ -116,6 +116,34 @@ False
 
 ### Q3
 ```python
+In the following traceback, what is the most recent function call?
+Traceback (most recent call last):
+    File "temp.py", line 10, in <module>
+      f("hi")
+    File "temp.py", line 2, in f
+      return g(x + x, x)
+    File "temp.py", line 5, in g
+      return h(x + y * 5)
+    File "temp.py", line 8, in h
+      return x + 0
+    TypeError: must be str, not int
+
+2
+
+In the following traceback, what is the cause of this error?
+Traceback (most recent call last):
+    File "temp.py", line 10, in <module>
+       f("hi")
+    File "temp.py", line 2, in f
+      return g(x + x, x)
+    File "temp.py", line 5, in g
+      return h(x + y * 5)
+    File "temp.py", line 8, in h
+      return x + 0
+    TypeError: must be str, not int
+
+
+
 ```
 
 ### Q6
