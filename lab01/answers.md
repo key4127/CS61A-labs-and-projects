@@ -20,7 +20,6 @@ def xk(c, d):
 25
 ```
 
-### Q2
 ```python
 def how_big(x):
     if x > 10:
@@ -40,6 +39,43 @@ huge
 small
 >>> how_big(-1)
 nothin'
+```
+
+```python
+n = 3
+while n >= 0:
+    n -= 1
+    print(n)
+
+2
+1
+0
+-1
+```
+
+```python
+positive = 28
+while positive:
+    print("positive?")
+    positive -= 3
+
+Infinite Loop
+```
+```python
+positive = -9
+negative = -12
+while negative:
+    if positive:
+        print(negative)
+    positive += 3
+    negative += 3
+
+-12
+-9
+-6
+```
+### Q2
+```python
 ```
 
 ### Q3
