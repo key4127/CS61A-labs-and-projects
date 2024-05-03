@@ -50,7 +50,7 @@ return announce
 ```
 Besides, passing new values as arguments can also fix the problem.
 
-### *arsgs
+### *args
 The syntax is used to represent an arbitary number of arguments.
 ```python
 def average_function(*args):
