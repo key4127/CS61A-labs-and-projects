@@ -48,4 +48,17 @@ def announce(score0, score1, last_score = 0, running_high = 0):
     return new_announce
 return announce
 ```
-Beside, passing new values as arguments can also fix the problem.
+Besides, passing new values as arguments can also fix the problem.
+
+### *arsgs
+The syntax is used to represent an arbitary number of arguments.
+```python
+def average_function(*args):
+    average = 0
+    i = 1
+    while i <= trials_count:
+        i += 1
+        average += original_function(*args)
+    average /= trials_count
+    return average
+```
