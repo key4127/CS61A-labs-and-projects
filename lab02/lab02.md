@@ -18,3 +18,20 @@ can be transformed into
 def f(x):
   return lambda argument y: x + y
 ```
+
+### problems encountered in Q5
+- Pay attention to the difference.
+  ```python
+  x = fun()
+  x = fun
+  ```
+- When the default argument (or sth alike) need to be change, implement another function.
+  ```python
+  print(sofar)
+    def up():
+        return both_paths(sofar + "U")
+    def down():
+        return both_paths(sofar + "D")
+    return up, down
+  ```
+  
