@@ -34,4 +34,29 @@ def f(x):
         return both_paths(sofar + "D")
     return up, down
   ```
-  
+
+### environment diagram practice need to complement
+
+### environments for nested definitions
+In python, the inner functions can access the value of non-local variables defined in the parent functions, but are not permitted to modify them.
+(However, the keyword **nonlocal** enables us to specify a variable not to be local)  
+
+```python
+def cycle_first(n):
+    def cycle_second(x):
+        while n > 3: # n will be considered a local variable
+            n -= 3
+            x = f3(f2(f1(x)))
+        return x
+    return cycle_second
+```
+```python
+def cycle_first(n):
+    def cycle_second(x):
+        times = n
+        while times > 3:
+            times -= 3
+            x = f3(f2(f1(x)))
+        return x
+    return cycle_second
+```
