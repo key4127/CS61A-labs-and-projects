@@ -22,3 +22,22 @@ Like C++, the index begins at 0.
 >>> True
 """
 ```
+
+### for statement
+for <name> in <expression>: 
+    <suite>
+
+### range
+range\[x, y\]: x, x + 1, x + 2, ..., y - 1, y  
+range\[x\]: 0, 1, ..., x
+
+### list comprehensions
+[\<map exp> for <name> in <iter exp> if <filter exp>\]
+or [\<map exp> for <name> in <iter exp>\]
+(These are lists)
+For instance,
+```python
+digits = [1, 2, 3, 4]
+DoubleEvenDigits = [i * 2 for i in digits if i % 2 == 0]
+DoubleEvenDigits = [4, 8]
+```
