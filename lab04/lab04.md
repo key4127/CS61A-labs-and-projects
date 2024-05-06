@@ -14,3 +14,4 @@ pair[0] = [digit11, digit12]
 pair[0][0] = digit11
 """
 ```
+Like C++, the index begins at 0.
