@@ -41,3 +41,11 @@ digits = [1, 2, 3, 4]
 DoubleEvenDigits = [i * 2 for i in digits if i % 2 == 0]
 DoubleEvenDigits = [4, 8]
 ```
+
+### slicing notations
+list\[start:stop:step\]
+```python
+list = [0, 1, 2, 3, 4, 5, 6]
+new_list = list[1 : len(list) - 1 : 2]
+```
+new_list = \[1, 3, 5\]
