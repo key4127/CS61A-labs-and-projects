@@ -28,8 +28,8 @@ for <name> in <expression>:
     <suite>
 
 ### range
-range\[x, y\]: x, x + 1, x + 2, ..., y - 1, y  
-range\[x\]: 0, 1, ..., x
+range\[x, y\]: x, x + 1, x + 2, ..., y - 1
+range\[x\]: 0, 1, ..., x - 1
 
 ### list comprehensions
 [\<map exp> for <name> in <iter exp> if <filter exp>\]
