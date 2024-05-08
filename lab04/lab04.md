@@ -52,3 +52,4 @@ new_list = list[1 : len(list) - 1 : 2]
 >>> new_list
 [1, 3, 5]
 ```
+The start default is 0, the stop default is len, the step default is 1.  
