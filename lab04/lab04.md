@@ -43,12 +43,12 @@ DoubleEvenDigits = [4, 8]
 ```
 
 ### slicing notations
-list\[start:stop:step\]
+list \[start : stop : step\]
 ```python
 list = [0, 1, 2, 3, 4, 5, 6]
 new_list = list[1 : len(list) - 1 : 2]
 ```
 ```python
 >>> newlist
-\[1, 3, 5\]
+[1, 3, 5]
 ```
