@@ -34,7 +34,7 @@ range\[x\]: 0, 1, ..., x - 1
 ### list comprehensions
 [\<map exp> for <name> in <iter exp> if <filter exp>\]
 or [\<map exp> for <name> in <iter exp>\]
-or [\<map exp> if <filter exp> else <map exp> for <name> in <iter exp>
+or [\<map exp> if <filter exp> else <map exp> for <name> in <iter exp>\]
 (These are lists)
 For instance,
 ```python
